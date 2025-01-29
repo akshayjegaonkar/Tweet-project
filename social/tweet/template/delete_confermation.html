@@ -1,0 +1,19 @@
+{% extends "layout.html"%}
+
+{% block title%}
+tweeeet
+{%endblock%}
+
+{% block container %}
+
+<h1 class="text-center text-white mt-4">Welcome to tweeeet</h1>
+<div class="border p-4">
+<form method="post" > 
+    {% csrf_token %} 
+    <p><strong class="text-white">{{ tweet.text }}</strong></p>
+    <h1 class="text-white">Are you sure you want to delete ?</h1>
+    <button  class="btn btn-danger" type="submit">Delete</button>
+</form>
+<a href="{% url 'tweet_list' %}"class="btn btn-success">Cancel</a>
+</div>
+{%endblock%}

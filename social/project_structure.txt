@@ -1,0 +1,60 @@
+.
+├── db.sqlite3
+├── manage.py
+├── media
+│   └── Photos
+│       ├── 1726000872749.png
+│       ├── Capture.PNG
+│       ├── WhatsApp_Image_2024-12-25_at_10.07.19_AM.jpeg
+│       ├── WhatsApp_Image_2025-01-17_at_22.02.40_e760801f.jpg
+│       ├── WhatsApp_Image_2025-01-17_at_22_1nsgfUR.02.40_e760801f.jpg
+│       ├── WhatsApp_Image_2025-01-17_at_22_GJYyft3.02.40_e760801f.jpg
+│       ├── WhatsApp_Image_with_title.jpg
+│       ├── WhatsApp_Image_with_title_iBw1kgu.jpg
+│       ├── for_philips.png
+│       └── pratidyaptra.pdf.png
+├── project_structure.txt
+├── social
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── settings.cpython-312.pyc
+│   │   ├── urls.cpython-312.pyc
+│   │   └── wsgi.cpython-312.pyc
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── static
+│   ├── urls.py
+│   └── wsgi.py
+├── template
+│   └── layout.html
+└── tweet
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-312.pyc
+    │   ├── admin.cpython-312.pyc
+    │   ├── apps.cpython-312.pyc
+    │   ├── forms.cpython-312.pyc
+    │   ├── models.cpython-312.pyc
+    │   ├── urls.cpython-312.pyc
+    │   └── views.cpython-312.pyc
+    ├── admin.py
+    ├── apps.py
+    ├── forms.py
+    ├── migrations
+    │   ├── 0001_initial.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │       ├── 0001_initial.cpython-312.pyc
+    │       └── __init__.cpython-312.pyc
+    ├── models.py
+    ├── template
+    │   ├── delete_confermation.html
+    │   ├── index.html
+    │   ├── tweet_form.html
+    │   └── tweet_list.html
+    ├── tests.py
+    ├── urls.py
+    └── views.py
+
+11 directories, 46 files
